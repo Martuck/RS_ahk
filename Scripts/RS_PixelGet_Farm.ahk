@@ -2,7 +2,7 @@
 
 SetKeyDelay,1,25
 
-#x::ExitApp ; Win+x kills the current script running completely.
+F10::ExitApp ; Win+x kills the current script running completely.
 Pause::Pause, toggle ; Pauses script except when currently executing a line.
 F9:: ; Script start
 while (GetKeyState("F9", "p"))
